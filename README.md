@@ -58,7 +58,7 @@ exiftool -r /path/to/folder
 
 - ```-GPSLatitude -GPSLongitude: Extract GPS data```
 
-
+<img width="955" height="910" alt="image" src="https://github.com/user-attachments/assets/a15c51e4-4001-411d-9e8a-d4bea6726b7e" />
 
 ### install log2timeline
 ```
@@ -73,13 +73,16 @@ sudo apt install steghide -y
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
 
+<img width="955" height="910" alt="image" src="https://github.com/user-attachments/assets/3c5ab8b8-7aca-4328-821e-5a329147faa2" />
 
-- **Extract hidden data:**
+**Extract hidden data:**
 ```
 steghide extract -sf hidden.jpg
 
 ```
 
+
+<img width="955" height="910" alt="image" src="https://github.com/user-attachments/assets/d884637c-1f5b-4631-9868-d385630031ca" />
 
 ### Using binwalk – for file analysis
 ```bash
@@ -89,6 +92,7 @@ binwalk suspicious.jpg
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="955" height="910" alt="image" src="https://github.com/user-attachments/assets/63a49208-5a6f-420c-b812-d88883b21b64" />
 
 
 ## RESULT:
